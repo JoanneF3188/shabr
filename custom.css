@@ -45,4 +45,12 @@ img {
 #front-page{
     background-image: URL('img/balloon-3');
 }
-
+#Testimonials{
+    background-color:#79F18F;
+}
+#Information{
+    background-color:#43B5E8;
+}
+#Contact{
+    background-color:#FF6461;
+}
