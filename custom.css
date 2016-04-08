@@ -2,20 +2,18 @@ html,
 body,
 .container-table {
     height: 100%;
+    width: 100%;
 }
 
-.container-table {
-    display: table;
-}
-
-.vertical-center-row {
-    display: table-cell;
+.text-vertical-center {
+    text-align: center;
     vertical-align: middle;
+    display: table-cell;
 }
 
-@media only screen and (min-width:768px) {
+@media only screen and (min-width: 768px) {
     #home {
-        text-align:center;
+        text-align: center;
         font-size: 36px;
     }
 }
@@ -34,7 +32,6 @@ body,
 
 img {
     height: 300px;
-    
 }
 
 #home {
@@ -42,16 +39,22 @@ img {
     font-weight: bold;
 }
 
-#op{
+#front-page {
+    display: table;
+    width: 100%;
+    height: 100%;
     background-image: URL('img/balloon-3.jpg');
     background-size: cover;
 }
-#Testimonials{
-    background-color:#79F18F;
+
+#Testimonials {
+    background-color: #79F18F;
 }
-#Information{
-    background-color:#43B5E8;
+
+#Information {
+    background-color: #43B5E8;
 }
-#Contact{
-    background-color:#FF6461;
+
+#Contact {
+    background-color: #FF6461;
 }
