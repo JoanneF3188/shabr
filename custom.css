@@ -42,7 +42,8 @@ img {
     font-weight: bold;
 }
 
-#front-page{
-    background-image: URL('img/balloon-3');
+#op{
+    background-image: URL('img/balloon-3.jpg');
+    background-size: cover;
 }
 
