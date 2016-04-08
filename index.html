@@ -17,45 +17,48 @@
     <link rel="stylesheet" href="custom.css">
     <link rel="stylesheet" href="nav.css">
     <script src="script.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Inknut+Antiqua:400,900' rel='stylesheet' type='text/css'>
+    <!--Inknut Antiqua-->
 </head>
 
 <body>
-    <div></div>
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-            </div>
+    <div id="Top">
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li><a href="#home">Home <span class="glyphicon glyphicon-home"></span></a></li>
-                    <li><a href="#Gallery">Gallery <span class="glyphicon glyphicon-camera"></span></a></li>
-                    <li><a href="#Testimonials">Testimonials <span class="glyphicon glyphicon-comment"></span></a></li>
-                    <li><a href="#Information">Information <span class="glyphicon glyphicon-info-sign"></span></a></li>
-                    <li><a href="#Contact">Contact <span class="glyphicon glyphicon-earphone"></span></a></li>
-                </ul>
-                <!--<ul class="nav navbar-nav navbar-right">-->
-                <!--    <li><a href="#">Link</a></li>-->
-                <!--</ul>-->
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#Top">Home <span class="glyphicon glyphicon-home"></span></a></li>
+                        <li><a href="#Gallery">Gallery <span class="glyphicon glyphicon-camera"></span></a></li>
+                        <li><a href="#Testimonials">Testimonials <span class="glyphicon glyphicon-comment"></span></a></li>
+                        <li><a href="#Information">Information <span class="glyphicon glyphicon-info-sign"></span></a></li>
+                        <li><a href="#Contact">Contact <span class="glyphicon glyphicon-earphone"></span></a></li>
+                    </ul>
+                    <!--<ul class="nav navbar-nav navbar-right">-->
+                    <!--    <li><a href="#">Link</a></li>-->
+                    <!--</ul>-->
+                </div>
+                <!-- /.navbar-collapse -->
             </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
-    </nav>
+            <!-- /.container-fluid -->
+        </nav>
+    </div>
     <div class="container container-table">
         <div class="vertical-center-row ">
-            <div class="text-center col-md-4 col-md-offset-4">
+            <div class="text-center">
                 <h1 id="home">Skydance Hot Air Balloon Rides</h1>
             </div>
         </div>
     </div>
-    <div id="Gallery" class="row">
+    <div class="container" id="Gallery" class="row">
         <div class="col-sm-4">
             <!--small: on top of each other, large:2 pics next to each other going down -->
             <img src="img/balloon-1.jpg" id="pic-1">
@@ -65,7 +68,7 @@
             <img src="img/balloon-6.jpg" id="pic-6">
         </div>
     </div>
-    <div id="Testimonials">
+    <div class="container" id="Testimonials">
         <!--Use bootstrap to make a 3 by 2 when large, a 2 by 3 when medium and a 1 by 6 when small, it's something to try-->
         <h3>Testimonials: Just a few of our happy customers</h3>
         <p>"Thank you for a wonderful memory. I was smiling the entire time. We shall always cherish that morning!" -- Joan H.</p>
@@ -75,7 +78,7 @@
         <p>"Thank you so much for the experience. It was delightful - awesome - wonderful - I will never forget my 80th Birthday!" -- Ethel E.</p>
         <p>"What an awesome way to remember my anniversary! I know I will always remember this experience. Thank you again!" -- Mary C.</p>
     </div>
-    <div id="Information">
+    <div class="container" id="Information">
         <h1>Info: All the information you'll need</h1>
         <h2>Time<span class="glyphicon glyphicon-time"></span></h2>
         <p>Due to climatic conditions, we can safely fly only in the early morning hours with our primary season and most beautiful months being May through November. Since our launch times vary through the seasons, we ask all our guests to call ahead for
@@ -88,7 +91,7 @@
         <h2>Participation<span class="glyphicon glyphicon-thumbs-"></span></h2>
         <p>We encourage all of our guests, if they wish, to participate in both the inflation and deflation of the balloon. We have found it adds greatly to the fun of the entire ballooning experience.</p>
     </div>
-    <div id="Contact">
+    <div class="container" id="Contact">
         <h3>Contact: We’d love to hear from you</h3>
         <h4>Address</h4>
         <p>SHABR, Inc.</p>
@@ -97,7 +100,7 @@
         <p>Phone(555) 555-1234</p>
         <h4>Copyright © 2016   |   SHABR</h4>
     </div>
-    </div>
+
 </body>
 
 </html>

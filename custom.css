@@ -14,17 +14,30 @@ body,
 }
 
 @media only screen and (min-width:768px) {
-    
+    #home {
+        text-align:center;
+        font-size: 36px;
+    }
 }
 
 @media only screen and (min-width:992px) {
-    
+    #home {
+        font-size: 46px;
+    }
 }
 
 @media only screen and (min-width:1200px) {
-    
+    #home {
+        font-size: 56px;
+    }
 }
 
 img {
-    height: 100px;
+    height: 300px;
+    
+}
+
+#home {
+    font-family: 'Inknut Antiqua', serif;
+    font-weight: bold;
 }
