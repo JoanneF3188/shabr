@@ -43,18 +43,34 @@ img {
     display: table;
     width: 100%;
     height: 100%;
-    background-image: URL('img/balloon-3.jpg');
+    background: URL('img/balloon-3.jpg') no-repeat center;
     background-size: cover;
+    
 }
 
 #Testimonials {
+    display: table;
+    width: 100%;
+    height: 100%;
     background-color: #79F18F;
 }
 
 #Information {
+    display: table;
+    width: 100%;
+    height: 100%;
     background-color: #43B5E8;
 }
 
 #Contact {
+    display: table;
+    width: 100%;
+    height: 100%;
     background-color: #FF6461;
+}
+
+#Gallery {
+    display: table;
+    width: 100%;
+    height: 100%;
 }
