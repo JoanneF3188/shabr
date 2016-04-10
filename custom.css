@@ -11,6 +11,26 @@ body,
     display: table-cell;
 }
 
+#home {
+    font-family: 'Inknut Antiqua', serif;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 50px;
+    font-family: 'Amita', cursive;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Jacques Francois Shadow', cursive;
+}
+
+p {
+    font-family: 'Germania One', cursive;
+    font-size: 22px;
+}
+
 @media only screen and (min-width: 768px) {
     #home {
         text-align: center;
@@ -19,17 +39,26 @@ body,
     h3 {
         font-size: 40px;
     }
+    p {
+        font-size: 25px;
+    }
 }
 
 @media only screen and (min-width:992px) {
     #home {
         font-size: 50px;
     }
+    h3 {
+        font-size: 44px;
+    }
 }
 
 @media only screen and (min-width:1200px) {
     #home {
         font-size: 62px;
+    }
+    h3 {
+        font-size: 52px;
     }
 }
 
@@ -45,15 +74,11 @@ div.img img {
 }
 
 div.desc {
-    margin-top: 5px;
-    padding: 5px;
+    border: .5px solid black;
     text-align: center;
-    height: 30px;
-}
-
-#home {
-    font-family: 'Inknut Antiqua', serif;
-    font-weight: bold;
+    height: 32px;
+    font-size: 20px;
+    font-family: 'Architects Daughter', cursive;
 }
 
 #front-page {
@@ -64,51 +89,55 @@ div.desc {
     background-size: cover;
 }
 
-#Testimonials {
+#Mission {
+    text-align: center;
+    padding-top: 45px;
     display: table;
-    background-color: #79F18F;
+    background-color: #E8C374;
+    width: 100%;
+}
+
+#Testimonials {
+    padding-top: 45px;
+    display: table;
+    background-color: #FF907E;
     width: 100%;
 }
 
 #Information {
+    padding-top: 45px;
     display: table;
-    background-color: #43B5E8;
+    background-color: #B49AE8;
     width: 100%;
 }
 
 #Contact {
+    padding-top: 45px;
     display: table;
-    background-color: #FF6461;
+    background-color: #95F7FF;
     width: 100%;
 }
 
 #Gallery {
+    background-color: #CCFFA2;
+    padding-top: 45px;
     display: table;
 }
 
-h3 {
-    font-family: 'Amita', cursive;
-    text-align: center;
-}
-
-h2 {
-    font-family: 'Jacques Francois Shadow', cursive;
-}
-
-p {
-    font-family: 'Germania One', cursive;
-    font-size: 20px;
-}
-
 .description {
+    font-style: italic;
     text-align: center;
+    font-size: 23px;
+    color: rgba(153, 153, 153, 0.5);
 }
 
 .lightbrown {
-    background-color: rgba(218, 166, 113, 0.7);
+    padding: 5px;
+    background-color: rgba(218, 166, 113, 0.5);
 }
 
 .brown {
+    padding: 5px;
     background-color: rgba(208, 140, 73, 0.7);
 }
 
@@ -116,3 +145,17 @@ p {
     font-size: 19px;
 }
 
+#slogan {
+    font-size: 50px;
+}
+
+.description1 {
+    font-style: italic;
+    text-align: center;
+    font-size: 23px;
+    color: rgba(102, 102, 102, 0.6);
+}
+
+#memories {
+    font-size: 25px;
+}
