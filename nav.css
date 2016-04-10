@@ -1,0 +1,20 @@
+.nav {
+    font-family: 'Kavoon', cursive;
+    font-size: 20px;
+}
+
+@media only screen and (min-width: 768px){
+    .nav {
+        font-size: 19px;
+    }
+}
+@media only screen and (min-width: 992px){
+    .nav {
+        font-size: 23px;
+    }
+}
+@media only screen and (min-width: 1200px){
+    .nav {
+        font-size: 28px;
+    }
+}
