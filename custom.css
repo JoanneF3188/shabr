@@ -12,12 +12,18 @@ body,
 }
 
 #home {
+    color: white;
     font-family: 'Inknut Antiqua', serif;
     font-weight: bold;
 }
 
+#slogan {
+    color: #80ffff;
+    font-size: 32px;
+}
+
 h3 {
-    font-size: 50px;
+    font-size: 35px;
     font-family: 'Amita', cursive;
     text-align: center;
 }
@@ -28,7 +34,18 @@ h2 {
 
 p {
     font-family: 'Germania One', cursive;
-    font-size: 22px;
+    font-size: 20px;
+}
+
+#memories {
+    font-size: 25px;
+}
+
+.description1 {
+    font-style: italic;
+    text-align: center;
+    font-size: 23px;
+    color: rgba(102, 102, 102, 0.6);
 }
 
 @media only screen and (min-width: 768px) {
@@ -40,7 +57,13 @@ p {
         font-size: 40px;
     }
     p {
-        font-size: 25px;
+        font-size: 23px;
+    }
+    #memories {
+        font-size: 26px;
+    }
+    #slogan {
+        font-size: 3opx;
     }
 }
 
@@ -51,6 +74,15 @@ p {
     h3 {
         font-size: 44px;
     }
+    p {
+        font-size: 28px;
+    }
+    #memories {
+        font-size: 30px;
+    }
+    #slogan {
+        font-size: 42px;
+    }
 }
 
 @media only screen and (min-width:1200px) {
@@ -59,6 +91,18 @@ p {
     }
     h3 {
         font-size: 52px;
+    }
+    p {
+        font-size: 32px;
+    }
+    #small {
+        font-size: 28px;
+    }
+    #memories {
+        font-size: 35px;
+    }
+    #slogan {
+        font-size: 50px;
     }
 }
 
@@ -107,14 +151,14 @@ div.desc {
 #Information {
     padding-top: 45px;
     display: table;
-    background-color: #B49AE8;
+    background-color: #D0B6E8;
     width: 100%;
 }
 
 #Contact {
     padding-top: 45px;
     display: table;
-    background-color: #95F7FF;
+    background-color: #B3EBFF;
     width: 100%;
 }
 
@@ -122,13 +166,6 @@ div.desc {
     background-color: #CCFFA2;
     padding-top: 45px;
     display: table;
-}
-
-.description {
-    font-style: italic;
-    text-align: center;
-    font-size: 23px;
-    color: rgba(153, 153, 153, 0.5);
 }
 
 .lightbrown {
@@ -139,23 +176,4 @@ div.desc {
 .brown {
     padding: 5px;
     background-color: rgba(208, 140, 73, 0.7);
-}
-
-#small {
-    font-size: 19px;
-}
-
-#slogan {
-    font-size: 50px;
-}
-
-.description1 {
-    font-style: italic;
-    text-align: center;
-    font-size: 23px;
-    color: rgba(102, 102, 102, 0.6);
-}
-
-#memories {
-    font-size: 25px;
 }
