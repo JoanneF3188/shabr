@@ -115,7 +115,7 @@ div.img img {
 }
 
 div.desc {
-    border: .5px solid black;
+    border: 1px solid black;
     text-align: center;
     height: 32px;
     font-size: 20px;
@@ -163,6 +163,7 @@ div.desc {
     background-color: #CCFFA2;
     padding-top: 45px;
     display: table;
+    width: 100%;
 }
 
 .lightbrown {
