@@ -116,6 +116,7 @@ div.img img {
 
 div.desc {
     border: 1px solid black;
+    border-radius: 5px;
     text-align: center;
     height: 32px;
     font-size: 20px;
