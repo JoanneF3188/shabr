@@ -45,6 +45,26 @@ small {
     font-style: italic;
 }
 
+.desc {
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    height: 32px;
+    font-size: 20px;
+    font-family: 'Architects Daughter', cursive;
+}
+
+.img {
+    text-align: center;
+    padding-left: auto;
+    padding-right: auto;
+    padding-bottom: 20px;
+}
+
+.img img {
+    width: 100%;
+}
+
 @media only screen and (min-width: 768px) {
     #home {
         text-align: center;
@@ -61,6 +81,10 @@ small {
     }
     #slogan {
         font-size: 30px;
+    }
+    .desc {
+        font-size: 25px;
+        height: 40px;
     }
 }
 
@@ -79,6 +103,14 @@ small {
     }
     #slogan {
         font-size: 42px;
+    }
+    .desc {
+        font-size: 20px;
+        height: 35px;
+        width: 230px;
+    }
+    .img {
+        width: 260px;
     }
 }
 
@@ -101,26 +133,6 @@ small {
     #slogan {
         font-size: 50px;
     }
-}
-
-div.img {
-    margin: 17px;
-    float: left;
-    width: 300px;
-}
-
-div.img img {
-    width: 100%;
-    height: auto;
-}
-
-div.desc {
-    border: 1px solid black;
-    border-radius: 5px;
-    text-align: center;
-    height: 32px;
-    font-size: 20px;
-    font-family: 'Architects Daughter', cursive;
 }
 
 #front-page {
@@ -163,7 +175,6 @@ div.desc {
 #Gallery {
     background-color: #CCFFA2;
     padding-top: 45px;
-    display: table;
     width: 100%;
 }
 
